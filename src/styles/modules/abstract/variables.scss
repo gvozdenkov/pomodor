@@ -1,0 +1,30 @@
+@use './mixins' as *;
+
+$font-family: 'Inter', 'Arial', sans-serif;
+
+$switch-theme-trans: background-color 0.5s ease-in-out, color 0.3s ease-in-out,
+  border-color 0.3s ease-in-out;
+
+:root {
+  --gutter-side: 120px;
+
+  @include width-xl {
+    --gutter-side: 80px;
+  }
+
+  @include width-lg {
+    --gutter-side: 60px;
+  }
+
+  @include width-md {
+    --gutter-side: 30px;
+  }
+
+  @include width-sm {
+    --gutter-side: 24px;
+  }
+
+  @include width-xs {
+    --gutter-side: 18px;
+  }
+}

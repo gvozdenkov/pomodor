@@ -1,0 +1,19 @@
+:root {
+  --color-background-primary: #f4f4f4;
+
+  --color-content-primary: #151515;
+  --color-content-primary-inverted: #fff;
+
+  --color-accent-primary: #24b47e;
+  --color-button-text: #fff;
+}
+
+.dark {
+  --color-background-primary: #333333;
+
+  --color-content-primary: #fff;
+  --color-content-primary-inverted: #151515;
+
+  --color-accent-primary: #24b47e;
+  --color-button-text: #fff;
+}
